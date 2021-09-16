@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26014.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColinsALMCheckinPolicies", "ColinsALMCheckinPolicies\ColinsALMCheckinPolicies.csproj", "{65D1501A-165A-4AB4-AA5E-25FC2224C7B2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColinsALMCheckinPoliciesInstaller", "ColinsALMCheckinPoliciesInstaller\ColinsALMCheckinPoliciesInstaller.csproj", "{4B12A47E-49D1-455F-92D7-F97FC5B5D496}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColinsALMCheckinPolicies.UnitTests", "ColinsALMCheckinPolicies.UnitTests\ColinsALMCheckinPolicies.UnitTests.csproj", "{0E2730C8-969D-4034-AE9F-FF73A74BF184}"
 EndProject
@@ -14,24 +12,40 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\extensionmanifest.md = ..\extensionmanifest.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColinsALMCheckinPoliciesInstaller", "ColinsALMCheckinPoliciesInstaller\ColinsALMCheckinPoliciesInstaller.csproj", "{4B12A47E-49D1-455F-92D7-F97FC5B5D496}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{65D1501A-165A-4AB4-AA5E-25FC2224C7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{65D1501A-165A-4AB4-AA5E-25FC2224C7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D1501A-165A-4AB4-AA5E-25FC2224C7B2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{65D1501A-165A-4AB4-AA5E-25FC2224C7B2}.Debug|x86.Build.0 = Debug|Any CPU
 		{65D1501A-165A-4AB4-AA5E-25FC2224C7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65D1501A-165A-4AB4-AA5E-25FC2224C7B2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4B12A47E-49D1-455F-92D7-F97FC5B5D496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4B12A47E-49D1-455F-92D7-F97FC5B5D496}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4B12A47E-49D1-455F-92D7-F97FC5B5D496}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4B12A47E-49D1-455F-92D7-F97FC5B5D496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D1501A-165A-4AB4-AA5E-25FC2224C7B2}.Release|x86.ActiveCfg = Release|Any CPU
+		{65D1501A-165A-4AB4-AA5E-25FC2224C7B2}.Release|x86.Build.0 = Release|Any CPU
 		{0E2730C8-969D-4034-AE9F-FF73A74BF184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0E2730C8-969D-4034-AE9F-FF73A74BF184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2730C8-969D-4034-AE9F-FF73A74BF184}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0E2730C8-969D-4034-AE9F-FF73A74BF184}.Debug|x86.Build.0 = Debug|Any CPU
 		{0E2730C8-969D-4034-AE9F-FF73A74BF184}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E2730C8-969D-4034-AE9F-FF73A74BF184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2730C8-969D-4034-AE9F-FF73A74BF184}.Release|x86.ActiveCfg = Release|Any CPU
+		{0E2730C8-969D-4034-AE9F-FF73A74BF184}.Release|x86.Build.0 = Release|Any CPU
+		{4B12A47E-49D1-455F-92D7-F97FC5B5D496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B12A47E-49D1-455F-92D7-F97FC5B5D496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B12A47E-49D1-455F-92D7-F97FC5B5D496}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4B12A47E-49D1-455F-92D7-F97FC5B5D496}.Debug|x86.Build.0 = Debug|Any CPU
+		{4B12A47E-49D1-455F-92D7-F97FC5B5D496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B12A47E-49D1-455F-92D7-F97FC5B5D496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B12A47E-49D1-455F-92D7-F97FC5B5D496}.Release|x86.ActiveCfg = Release|Any CPU
+		{4B12A47E-49D1-455F-92D7-F97FC5B5D496}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
